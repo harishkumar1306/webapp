@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import web3 from "./images/picture2.jpg";
 
 const Contact = () => {
 
