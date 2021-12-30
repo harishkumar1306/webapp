@@ -7,6 +7,7 @@ import Service from './Service';
 import Contact from './Contact';
 import Navbar from './Navbar';
 import { Routes,Route } from "react-router-dom";
+import Footer from './Footer';
 
 
 const App = ()=> {
@@ -20,6 +21,7 @@ const App = ()=> {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="*" element={<Home />}/>
       </Routes>
+      <Footer />
     </>
   );
 }
